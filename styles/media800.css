@@ -1,0 +1,68 @@
+@media screen and (max-width: 800px) {
+    .container {
+        max-width: 500px;
+    }
+
+    .phone {
+        display: none;
+    }
+
+    .types-item {
+        margin-right: 15px;
+        font-size: 14px;
+    }
+
+    .chair-box {
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .arrow {
+        display: flex;
+    }
+
+    .chair {
+        display: none;
+    }
+
+    .view {
+        display: block;
+    }
+
+    .box {
+        flex-direction: column;
+    }
+
+    .green-box {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .green-box:first-of-type {
+        margin-bottom: 15px;
+    }
+
+    .messenger-box {
+        flex-direction: column;
+    }
+
+    .messenger-pair:first-of-type {
+        margin-bottom: 10px;
+    }
+
+    .messenger {
+        margin-right: 10px;
+    }
+
+    .footer-text {
+        display: none;
+    }
+
+    .footer-info-container {
+        flex-direction: column;
+    }
+
+    .footer-info-text:first-of-type {
+        margin-bottom: 10px;
+    }
+}
